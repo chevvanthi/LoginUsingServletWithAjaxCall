@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+  </head>  
+  <body>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="/ajax.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "design.css" />
+  
+  <div id = "print"></div>
+  <div id="signin"><br> <input type = "button"   id = "signuppage"   value = "Create Account"><br></div>
+  <div id ='logout'><input type ="button" id = "logout" value = "Logout"></div>
+  
+  
+  <center>
+  <div id= "loginDiv">
+  <div id= internalLogin>
+  <div id="loginHeader"><h2> Login Page</h2></div>
+ 
+  <div id="loginName"> <br> <input type = "text"      id="loginuseremail" placeholder = "Email..."><br></div>
+  <div id="loginPass"> <br> <input type = "password"  id= "loginuserpass" placeholder = "password"><br></div>
+  
+  <div id="failureMessage"></div>
+  <br> <input type = "button"    id="loginbutton"     value = "Login"><br>
+  <div id ="forgetPass"> Forget Password <input type = "button" id ="ResetPage" value="Change Here"></div>
+  </div>
+  </div>
+  </center>
+ 
+ <center>
+   <div id = "signupDiv">
+   <div id = "internalSignupDiv">
+   <div id = "signUpHeader"> <h2> Create Account </h2></div>
+  
+   <div> <input type = "text"    id = "signupuseremail"     placeholder = "Email..."><br></div>
+   <div> <input type ="password" id = "signupuserpassword"  placeholder = "password"><br></div>
+    <div id="failureMessageSignUp"></div>
+   <div> <input type = "button"  id = "signupbutton"        value       =  "SignUp"><br></div>
+   
+   <div id="loginpageDiv">  <input type ="button" id = "loginpage" value = "Login Page"><br></div>
+   </div>
+  
+   </div> 
+ </center>
+   
+ <center>
+  <div id = "changepasswordDiv">
+  <h2  id="changepassHeader">Forgot your password ?</h2>
+ 
+  <div><input type = "text"     id ="changepassemail"     placeholder = "Email"><br></div>
+  <div><input type = "password" id = "changepass"         placeholder ="New password"><br></div>
+  
+  <div id="failureText"></div>
+ 
+  <div><input type = "button"   id = "chanhepassbutton"   value  = "Change password"><br></div>
+  <div><input type = "button"   id = "loginBack"          value = "Login Page"><br></div>
+  
+  </div>
+ </center> 
+ 
+
+ <div id = "ToDoListDiv">
+ 
+ <input type ="text"   id = "createListId" placeholder = " Type Here...">
+ 
+ </div>
+ 
+     </body>
+ </html>

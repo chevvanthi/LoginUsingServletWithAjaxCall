@@ -1,0 +1,175 @@
+#loginDiv{
+	
+	width: 400;
+    background: white;
+    height: 400;
+    position :relative;
+    top: 90;
+	
+}#internalLogin{
+   
+    position: relative;
+    top: 30;
+}
+body{
+	background-color: rgba(135, 206, 250, 0.48);
+}
+
+#loginHeader{
+	position: relative;
+    top: 20;
+	
+}
+#loginuseremail{
+	width: 290;
+    position: relative;
+    top: 30;
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: rgba(0, 231, 255, 0.38);
+    font-size: 15;
+}
+#loginuserpass{
+	width: 290;
+    position: relative;
+    top: 30;
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: rgba(0, 231, 255, 0.38);
+    font-size: 15;
+}#signin{
+	
+}
+#forgetPass{
+	position: relative;
+    top: 100;
+   
+}#ResetPage{
+   border: none;
+    font-size: 15;
+    text-decoration: underline;
+    background : none;
+}#signuppage
+{
+    position: relative;
+    left: 1200;
+    box-sizing: content-box;
+}#loginbutton
+
+{
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    font-size: 15;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 300;
+    height: 50;
+    top: 80;
+    cursor: pointer;
+    text-transform: uppercase;
+} #signupDiv{
+   
+    background-color: white;
+    width: 450;
+    height: 450;
+    position: relative;
+    top: 90;
+}#loginpage{
+	
+	position: relative;
+    top: 180;
+    box-sizing: content-box;
+    border: none;
+    background: whitesmoke;
+    width: 300;
+    height: 50;
+    font-size: 15;
+	
+}#signupbutton
+{
+position: relative;
+    top: 150;
+    box-sizing: content-box;
+    border: none;
+    background: whitesmoke;
+    width: 300;
+    height: 50;
+    font-size: 15;
+
+}#signupuseremail{
+	width: 290;
+    position: relative;
+    top: 30;
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: rgba(0, 231, 255, 0.38);
+    font-size: 15;
+}#signupuserpassword{
+	width: 290;
+    position: relative;
+    top: 60;
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: rgba(0, 231, 255, 0.38);
+    font-size: 15;
+}#internalSignupDiv{
+	 position: relative;
+    top: 10;
+}#signUpHeader{
+	position: relative;
+    top: 20;
+}#changepasswordDiv{
+	background : white;
+	position: relative;
+	width:400;
+	height:450;
+	top:90;
+}#changepassemail{
+	width: 290;
+    position: relative;
+    top: 100;
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: rgba(0, 231, 255, 0.38);
+    font-size: 15;
+}#changepass{
+	width: 290;
+    position: relative;
+    top: 130;
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: rgba(0, 231, 255, 0.38);
+    font-size: 15;
+}#chanhepassbutton{
+	position: relative;
+    top: 200;
+    box-sizing: content-box;
+    background: whitesmoke;
+    border: none;
+    width: 300;
+    height: 50;
+    font-size: 15;
+	
+}#loginBack{
+	position: relative;
+    top: 230;
+    box-sizing: content-box;
+    border: none;
+    background: whitesmoke;
+    width: 300;
+    height: 50;
+    font-size: 15;
+}#changepassHeader{
+	position: relative;
+    top: 40;
+}#failureMessage{
+	    position: relative;
+    top: 80
+}#failureText{
+    position: relative;
+    top: 170;
+}#failureMessageSignUp{
+	position:relative;
+	top :150;
+}
