@@ -29,7 +29,15 @@ public class LoginServletServlet extends HttpServlet {
 	
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		
-		System.out.println("test commit");
+    	System.out.println("test commit");
+    	System.out.println("test commit");
+    	System.out.println("test commit");
+    	System.out.println("test commit");
+    	System.out.println("test commit");
+    	System.out.println("test commit");
+    	System.out.println("test commit");
+		
+		
 		String email         =  req.getParameter("loginUserEmail").toLowerCase();
 		String password      =  req.getParameter("loginUserPass"); 		
 		Query q              =  new Query("userCredentials").setFilter( new FilterPredicate("Email" , FilterOperator.EQUAL,email));		
